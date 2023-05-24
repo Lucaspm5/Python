@@ -1,0 +1,6 @@
+a = str(input())
+
+auxiliary = a.upper().find('SANTOS')
+
+print(auxiliary)
+
