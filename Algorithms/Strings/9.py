@@ -1,4 +1,7 @@
 n = input()
-
-if '13' in n:
-    print('Es de mala suerte')
+vogal = "aeiou"
+new_string = ""
+for letra in n:
+    if letra not in vogal:
+        new_string += letra
+print(new_string)
